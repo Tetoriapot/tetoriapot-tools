@@ -171,5 +171,14 @@ export const tools = [
     tags: ["職業", "キャラクター", "創作資料"],
     url: "https://tetoriapot.github.io/occupation-atlas/",
     status: "public"
+  },
+  {
+    id: "kikamoyo",
+    name: "KIKAMOYO",
+    description: "プリセットや色・形・配置を調整し、シームレスな幾何学模様を作るツール。PNG・SVG・CSSなどで書き出せます。",
+    category: "image",
+    tags: ["幾何学模様", "パターン", "背景"],
+    url: "https://tetoriapot.github.io/kikamoyo/",
+    status: "public"
   }
 ];
