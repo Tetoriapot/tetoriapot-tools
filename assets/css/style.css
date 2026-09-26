@@ -180,7 +180,7 @@ button { color: inherit; }
 .theme-toggle:hover { border-color: var(--accent); }
 
 section { padding: 44px 0; }
-.search-section { padding-top: 24px; }
+.search-section { padding-top: 16px; }
 .panel {
   background: var(--panel);
   border: 1px solid var(--line-soft);
@@ -351,9 +351,17 @@ a.tool-card h3 { margin-right: 24px; }
 }
 .empty-state { padding: 28px; text-align: center; color: var(--text-dim); }
 
-.about-panel { padding: 28px; }
-.about-panel h2 { margin-top: 0; }
-.about-panel p { color: var(--text-soft); }
+.about-section { padding: 12px 0 0; }
+.about-inline {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px 16px;
+  font-size: .875rem;
+}
+.about-inline h2 { margin: 0; color: var(--text-dim); font-size: .75rem; letter-spacing: .12em; }
+.about-inline p { margin: 0; color: var(--text-soft); }
+.about-inline .text-link { white-space: nowrap; }
 .text-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); text-underline-offset: 4px; }
 
 .site-footer {
@@ -385,6 +393,9 @@ a.tool-card h3 { margin-right: 24px; }
   .updates-dialog { padding-inline: 16px; }
   .global-nav { gap: 16px; font-size: .76rem; }
   section { padding: 32px 0; }
+  .about-inline { grid-template-columns: auto minmax(0, 1fr); column-gap: 12px; }
+  .about-inline p { grid-column: 1 / -1; grid-row: 2; }
+  .about-inline .text-link { justify-self: end; }
   .search-row { grid-template-columns: 1fr; }
   .update-item { grid-template-columns: 1fr; gap: 4px; }
   .category-grid { grid-template-columns: repeat(2, 1fr); }
