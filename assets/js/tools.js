@@ -4,6 +4,7 @@ export const categories = [
   { id: "text", label: "テキスト", icon: "Aa" },
   { id: "trpg", label: "TRPG", icon: "◇" },
   { id: "audio", label: "音声", icon: "♪" },
+  { id: "game", label: "ゲーム", icon: "♟" },
   { id: "gamedev", label: "ゲーム開発", icon: "⌘" },
   { id: "utility", label: "その他", icon: "＋" },
 ];
@@ -133,6 +134,42 @@ export const tools = [
     category: "gamedev",
     tags: ["ティラノ", "タグ辞典", "画面レイアウト"],
     url: "https://tetoriapot.github.io/tyrano-studio/",
+    status: "public"
+  },
+  {
+    id: "lootmoji",
+    name: "るともじ",
+    description: "パックを開けてカードを集め、能力を強化しながら戦うブラウザゲーム。キャラクターやビルドを組み替えてステージ攻略に挑めます。",
+    category: "game",
+    tags: ["パック開封", "自動戦闘", "育成"],
+    url: "https://tetoriapot.github.io/lootmoji/",
+    status: "public"
+  },
+  {
+    id: "area-title-maker",
+    name: "Area Title Maker",
+    description: "ゲームやTRPG動画向けのエリア名・章タイトルを作れる画像ツール。文字や装飾線、背景を調整し、透過PNGでも保存できます。",
+    category: "image",
+    tags: ["タイトル", "ゲーム演出", "PNG"],
+    url: "https://tetoriapot.github.io/area-title-maker/",
+    status: "public"
+  },
+  {
+    id: "sanmoku-lab",
+    name: "SANMOKU / LAB",
+    description: "三目並べに「消える」「動く」「落ちる」などのルールを組み合わせて遊ぶ戦略ゲーム。CPU対戦・対人戦・CPU同士の観戦に対応。",
+    category: "game",
+    tags: ["三目並べ", "ルール編集", "対戦"],
+    url: "https://tetoriapot.github.io/sanmoku-lab/",
+    status: "public"
+  },
+  {
+    id: "occupation-atlas",
+    name: "探索者職業図鑑",
+    description: "現実の仕事内容や一日の流れから、TRPG・物語の人物像を考えるための職業図鑑。職業の検索・比較や、シナリオ導入のヒントを調べられます。",
+    category: "trpg",
+    tags: ["職業", "キャラクター", "創作資料"],
+    url: "https://tetoriapot.github.io/occupation-atlas/",
     status: "public"
   }
 ];
