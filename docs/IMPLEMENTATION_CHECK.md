@@ -123,4 +123,29 @@ TOPリンクの移動先はページ先頭へ変更し、READMEと実装方針�
 - [x] 全6件表示、検索、クリア、TRPGの絞り込み、テーマ・文字サイズ切替、更新履歴の開閉を確認
 - [x] ABOUT / TOPナビゲーション、h1が1件であること、ブラウザのエラー・警告ログなしを確認
 
+## 公開ツール8件の追加（2026-09-26）
+
+既存6件の後ろに、ユーザー指定順で次の8件を追加。すべて `public` とし、全14件になった。
+公開ページのHTTP 200、タイトル・説明・画面内容を確認して紹介文を設定した。
+
+| ツール | カテゴリ | 公開ページ |
+| --- | --- | --- |
+| 画像かんたん加工 | 画像 | [image-editor](https://tetoriapot.github.io/image-editor/) |
+| キャラ属性メーカー | 画像 | [character-attribute-maker](https://tetoriapot.github.io/character-attribute-maker/) |
+| アイコンメーカー | 画像 | [icon-maker](https://tetoriapot.github.io/icon-maker/) |
+| 今日はこれでいいや。メーカー | テキスト | [kyou-wa-korede-iiya](https://tetoriapot.github.io/kyou-wa-korede-iiya/) |
+| キャラクター発注室 | テキスト | [character-order-room](https://tetoriapot.github.io/character-order-room/) |
+| 暦｜年齢・西暦和暦早見 | その他 | [koyomi](https://tetoriapot.github.io/koyomi/) |
+| ココフォリア → ティラノスクリプト変換 | TRPG | [ccfolia-tyrano-converter](https://tetoriapot.github.io/ccfolia-tyrano-converter/) |
+| TYRANO CHEATSHEET STUDIO | ゲーム開発 | [tyrano-studio](https://tetoriapot.github.io/tyrano-studio/) |
+
+- [x] 全14件のID・URLに重複がなく、カード全件に公開URLと `target="_blank" rel="noopener"`
+- [x] 追加8件をそれぞれ名前で検索でき、クリアで全14件へ戻る
+- [x] 画像5件・テキスト3件・TRPG3件・ゲーム開発1件・その他2件・音声0件の絞り込み
+- [x] 8件追加の更新履歴、READMEの掲載件数、変更したJavaScriptの読み込み更新番号を更新
+- [x] 360px幅・文字サイズ大で、ページと追加カードの横はみ出しなし
+- [x] JavaScript構文チェック、`git diff --check`、ブラウザのエラー・警告ログなし
+
+リンク先ツールの全機能や実機モバイルでの動作は、このポータル更新の検証対象に含めていない。
+
 公開データの確認には [TOOLS_EDIT_CHECKLIST.md](TOOLS_EDIT_CHECKLIST.md) を使用する。

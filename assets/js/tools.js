@@ -62,5 +62,77 @@ export const tools = [
     tags: ["TRPG", "ココフォリア", "ダイス"],
     url: "https://tetoriapot.github.io/wonder-of-wanderer-dice-tool/",
     status: "public"
+  },
+  {
+    id: "image-editor",
+    name: "画像かんたん加工",
+    description: "画像の結合・分割・切り抜き・リサイズ・自由配置・フィルター加工を、ブラウザ内でまとめて行える画像編集ツール。",
+    category: "image",
+    tags: ["画像加工", "結合・分割", "フィルター"],
+    url: "https://tetoriapot.github.io/image-editor/",
+    status: "public"
+  },
+  {
+    id: "character-attribute-maker",
+    name: "キャラ属性メーカー",
+    description: "好きな言葉を二軸に設定し、キャラクター画像をドラッグして属性マップを作れるツール。配置や見た目を調整してPNGで保存できます。",
+    category: "image",
+    tags: ["キャラクター", "属性マップ", "PNG"],
+    url: "https://tetoriapot.github.io/character-attribute-maker/",
+    status: "public"
+  },
+  {
+    id: "icon-maker",
+    name: "アイコンメーカー",
+    description: "画像を切り抜いて整え、円形・正方形のアイコンとして保存できるツール。画像はブラウザ内で処理します。",
+    category: "image",
+    tags: ["アイコン", "切り抜き", "画像"],
+    url: "https://tetoriapot.github.io/icon-maker/",
+    status: "public"
+  },
+  {
+    id: "kyou-wa-korede-iiya",
+    name: "今日はこれでいいや。メーカー",
+    description: "関係性・性格・体格・世界観などをランダムに組み合わせ、創作カップリングのお題を作るツール。結果はPNGで保存できます。",
+    category: "text",
+    tags: ["お題", "カップリング", "創作"],
+    url: "https://tetoriapot.github.io/kyou-wa-korede-iiya/",
+    status: "public"
+  },
+  {
+    id: "character-order-room",
+    name: "キャラクター発注室",
+    description: "外見・衣装・ポーズ・構図などを選び、キャラクターイラストの指示書や日本語・英語のプロンプトを作るツール。",
+    category: "text",
+    tags: ["キャラクター", "指示書", "プロンプト"],
+    url: "https://tetoriapot.github.io/character-order-room/",
+    status: "public"
+  },
+  {
+    id: "koyomi",
+    name: "暦｜年齢・西暦和暦早見",
+    description: "西暦・和暦・生年月日・年齢を変換し、年齢比較や年表、学年を確認できる早見ツール。",
+    category: "utility",
+    tags: ["年齢計算", "和暦", "年表"],
+    url: "https://tetoriapot.github.io/koyomi/",
+    status: "public"
+  },
+  {
+    id: "ccfolia-tyrano-converter",
+    name: "ココフォリア → ティラノスクリプト変換",
+    description: "ココフォリアのHTMLログを読み込み、発言やキャラクター設定を編集してティラノスクリプトの.ksファイルへ変換するツール。",
+    category: "trpg",
+    tags: ["ココフォリア", "ティラノ", "ログ変換"],
+    url: "https://tetoriapot.github.io/ccfolia-tyrano-converter/",
+    status: "public"
+  },
+  {
+    id: "tyrano-studio",
+    name: "TYRANO CHEATSHEET STUDIO",
+    description: "ティラノスクリプトのタグ・レシピを検索し、選択肢や画面配置のコード作成を補助する制作ツール。",
+    category: "gamedev",
+    tags: ["ティラノ", "タグ辞典", "画面レイアウト"],
+    url: "https://tetoriapot.github.io/tyrano-studio/",
+    status: "public"
   }
 ];
