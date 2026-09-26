@@ -17,32 +17,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css?v=20260926-compact-filters" />
+  <link rel="stylesheet" href="./assets/css/style.css?v=20260926-header" />
 </head>
 <body id="top">
   <a class="skip-link" href="#main">本文へ移動</a>
 
   <header class="site-header">
-    <div class="container header-utilities">
+    <div class="container header-inner">
+      <h1 class="brand-heading"><a class="brand" href="#top" aria-label="TeToriapot Tools トップへ">TeToriapot Tools</a></h1>
       <button class="text-button" id="updatesToggle" type="button" aria-haspopup="dialog" aria-controls="updatesDialog" aria-expanded="false">更新履歴</button>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="ライトモード" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+        <span class="theme-text">Dark</span>
+      </button>
       <div class="font-size-controls" id="fontSizeControls" role="group" aria-label="文字サイズ">
         <span class="font-size-label" aria-hidden="true">文字<span class="font-size-label-detail">サイズ</span></span>
         <button class="text-button" type="button" data-font-size="small" aria-label="文字サイズ：小" aria-pressed="false">小</button>
         <button class="text-button" type="button" data-font-size="normal" aria-label="文字サイズ：標準" aria-pressed="true">標準</button>
         <button class="text-button" type="button" data-font-size="large" aria-label="文字サイズ：大" aria-pressed="false">大</button>
       </div>
-    </div>
-    <div class="container header-inner">
-      <h1 class="brand-heading"><a class="brand" href="#top" aria-label="TeToriapot Tools トップへ">TeToriapot Tools</a></h1>
-      <nav class="global-nav" aria-label="メインナビゲーション">
-        <a href="#top">TOP</a>
-        <a href="#tools">TOOLS</a>
-        <a href="#category">CATEGORY</a>
-      </nav>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="ライトモード" aria-pressed="false">
-        <span class="theme-icon" aria-hidden="true">☾</span>
-        <span class="theme-text">Dark</span>
-      </button>
     </div>
   </header>
 
