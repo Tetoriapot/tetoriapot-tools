@@ -97,9 +97,18 @@ Edgeで以下を確認した。
 
 上記はポータルの掲載内容と操作の確認。リンク先ツール自体の全機能テストは含まない。
 
-## 公開前に残る作業
+## GitHub Pages公開（2026-09-26）
 
-- 本番の `/tools/` 配置後、実際のツールと本館へ遷移できることを確認する。
-- 実機のSafari・モバイルブラウザで最終確認する。今回の自動検証はEdgeのみ。
+公開URL：[TeToriapot Tools](https://tetoriapot.github.io/tetoriapot-tools/)
+
+- [x] `Tetoriapot/tetoriapot-tools` の `main` ブランチ・ルートから公開し、GitHub Pagesのデプロイ成功を確認
+- [x] `.nojekyll` を追加し、canonical・OG URLと公開手順をGitHub Pagesへ合わせて更新
+- [x] 公開HTML・CSS・JavaScript・画像の計9ファイルがHTTP 200で取得でき、SHA-256がコミットした内容と一致
+- [x] 掲載ツール6件と本館のリンク先がHTTP 200で応答
+- [x] 公開URLで全6件の表示、検索、クリア、TRPGカテゴリの絞り込み、文字サイズ・テーマ切替とリロード後の復元を確認
+- [x] 公開URLで更新履歴の表示・Escでの閉じ操作を確認し、ブラウザのエラー・警告ログなし
+- [x] 公開URLを360px幅・文字サイズ大で確認し、横はみ出しなし、モバイル用画像の読み込みを確認
+
+公開後の操作確認はCodex内蔵ブラウザで実施した。実機のSafari・モバイルブラウザでの確認は未実施。
 
 公開データの確認には [TOOLS_EDIT_CHECKLIST.md](TOOLS_EDIT_CHECKLIST.md) を使用する。
