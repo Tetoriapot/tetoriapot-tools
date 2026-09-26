@@ -118,7 +118,7 @@ https://tetoriapot.sakura.ne.jp/tools/
 
 `status: "public"` かつ有効なHTTP / HTTPSのURLを持つカードだけがリンクになります。
 同じサイト内の相対URL（例：`./color/`）も使用できます。
-外部サイトは `target="_blank" rel="noopener"` で開きます。
+ツールのリンクは、同じサイト内のURLも含め、すべて `target="_blank" rel="noopener"` で新しいタブに開きます。
 
 `#`・空欄・無効なURLのカードと `draft` のカードは、クリックできない紹介として表示します。
 公開中でもリンク未設定の場合は「リンク準備中」を表示します。

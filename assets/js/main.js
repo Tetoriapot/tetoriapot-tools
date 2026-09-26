@@ -103,10 +103,8 @@ function renderTools() {
     const card = element(url ? "a" : "article", "tool-card");
     if (url) {
       card.href = url.href;
-      if (url.origin !== window.location.origin) {
-        card.target = "_blank";
-        card.rel = "noopener";
-      }
+      card.target = "_blank";
+      card.rel = "noopener";
       const arrow = element("span", "tool-arrow", "→");
       arrow.setAttribute("aria-hidden", "true");
       card.append(arrow);
