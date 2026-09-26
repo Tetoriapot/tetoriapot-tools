@@ -1,5 +1,5 @@
 import { categories, tools } from "./tools.js";
-import { updates } from "./updates.js";
+import { updates } from "./updates.js?v=20260926-simple";
 
 const searchInput = document.querySelector("#toolSearch");
 const clearSearch = document.querySelector("#clearSearch");

@@ -66,6 +66,9 @@ GitHubの **Settings → Pages** で、公開元を **Deploy from a branch / mai
 
 `index.html` の `canonical` と `og:url` は公開URLに設定済みです。
 
+CSS・JavaScriptを更新する際は、読み込みURLの `?v=` も更新してください。
+モジュールから読み込むファイルを変更した場合は、そのimport先と入口の `main.js` の両方を更新し、以前のキャッシュが残るのを防ぎます。
+
 ## さくらサーバーへ配置する場合
 
 `index.html` と `assets` ディレクトリを、そのまま公開ディレクトリへアップロードしてください。
