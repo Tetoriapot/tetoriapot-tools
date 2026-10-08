@@ -180,5 +180,14 @@ export const tools = [
     tags: ["幾何学模様", "パターン", "背景"],
     url: "https://tetoriapot.github.io/kikamoyo/",
     status: "public"
+  },
+  {
+    id: "tyrano-standing-previewer",
+    name: "Tyrano 立ち絵確認ツール",
+    description: "立ち絵の配置や表情を確認し、ティラノスクリプトのタグを生成するツール。生成したタグをコピーしたり、.ks形式で書き出したりできます。",
+    category: "gamedev",
+    tags: ["ティラノ", "立ち絵", "タグ生成"],
+    url: "https://tetoriapot.github.io/tyrano-standing-previewer/",
+    status: "public"
   }
 ];
